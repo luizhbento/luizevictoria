@@ -15,11 +15,11 @@ import Viagem from './pages/Viagem';
 function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path="/" element={<MainLayout />}>
+      <Route path="/luizevictoria/" element={<MainLayout />}>
         <Route index element={<Home />} />
-        <Route path="/rsvp" element={<Presenca />} />
-        <Route path="/presentes" element={<Presentes />} />
-        <Route path="/viagem" element={<Viagem />} />
+        <Route path="/luizevictoria/rsvp" element={<Presenca />} />
+        <Route path="/luizevictoria/presentes" element={<Presentes />} />
+        <Route path="/luizevictoria/viagem" element={<Viagem />} />
       </Route>,
     ),
   );

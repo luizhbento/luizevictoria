@@ -33,14 +33,14 @@ const Navbar = () => {
       <nav className="w-full h-[80px] md:h-[120px] flex justify-between lg:justify-evenly items-center ">
         <ul className="max-md:hidden w-full flex justify-evenly">
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/luizevictoria/">Home</Link>
           </li>
           <li>
-            <Link to="/viagem">Dicas de Viagem</Link>
+            <Link to="/luizevictoria/viagem">Dicas de Viagem</Link>
           </li>
         </ul>
         <div className="h-full min-w-40 flex justify-center">
-          <Link to="/" className="w-full">
+          <Link to="/luizevictoria/" className="w-full">
             <img
               src={Logo}
               alt="Logo do Casamento"
@@ -50,10 +50,10 @@ const Navbar = () => {
         </div>
         <ul className="max-md:hidden w-full flex justify-evenly">
           <li>
-            <Link to="/presentes">Lista de Presentes</Link>
+            <Link to="/luizevictoria/presentes">Lista de Presentes</Link>
           </li>
           <li>
-            <Link to="/rsvp">RSVP</Link>
+            <Link to="/luizevictoria/rsvp">RSVP</Link>
           </li>
         </ul>
         <HiMenu
@@ -71,10 +71,10 @@ const Navbar = () => {
       <div className="w-full -top-2">
         <div className={(!navMenu ? 'hidden' : 'md:hidden') + ' px-4 py-1'}>
           <div className="flex flex-col gap-1 items-end">
-            <Link to="/">Home</Link>
-            <Link to="/viagem">Dicas de Viagem</Link>
-            <Link to="/presentes">Lista de Presentes</Link>
-            <Link to="/rsvp">RSVP</Link>
+            <Link to="/luizevictoria/">Home</Link>
+            <Link to="/luizevictoria/viagem">Dicas de Viagem</Link>
+            <Link to="/luizevictoria/presentes">Lista de Presentes</Link>
+            <Link to="/luizevictoria/rsvp">RSVP</Link>
           </div>
         </div>
       </div>
