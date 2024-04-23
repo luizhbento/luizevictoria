@@ -26,7 +26,7 @@ const Navbar = () => {
     <header
       className={
         (navBg ? 'bg-[#FAF9F6] border-[#7A7E5E] ' : 'border-transparent ') +
-        'fixed w-screen top-0 z-10 px-6 md:px-10 py-1 backdrop-filter backdrop-blur-md bg-opacity-70 text-[#73754F] text-xl ' +
+        'fixed w-screen top-0 z-10 px-6 md:px-10 py-1 backdrop-filter backdrop-blur-md bg-opacity-70 text-[#73754F] text-lg lg:text-xl ' +
         'select-none transition easy-in-out duration-500 border-b font-menuFont'
       }
     >
