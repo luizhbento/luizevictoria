@@ -1,15 +1,16 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 import { Outlet } from 'react-router-dom';
 
 const MainLayout = () => {
   return (
     <>
       <Navbar />
-      <body className=" font-contentFont">
+      <div className=" font-contentFont">
         <Outlet />
-      </body>
-      {/* <Footer /> */}
+      </div>
+      <Footer />
     </>
   );
 };

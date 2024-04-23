@@ -27,16 +27,23 @@ const Navbar = () => {
       className={
         (navBg ? 'bg-[#FAF9F6] border-[#7A7E5E] ' : 'border-transparent ') +
         'fixed w-screen top-0 z-10 px-6 md:px-10 py-1 backdrop-filter backdrop-blur-md bg-opacity-70 text-[#73754F] text-xl ' +
-        'select-none ease-in-out duration-500 border-b font-menuFont'
+        'select-none transition easy-in-out duration-500 border-b font-menuFont'
       }
     >
       <nav className="w-full h-[80px] md:h-[120px] flex justify-between lg:justify-evenly items-center ">
         <ul className="max-md:hidden w-full flex justify-evenly">
           <li>
-            <Link to="/luizevictoria/">Home</Link>
+            <Link
+              className=" transition-all duration-1000 hover:underline"
+              to="/luizevictoria/"
+            >
+              Home
+            </Link>
           </li>
           <li>
-            <Link to="/luizevictoria/viagem">Dicas de Viagem</Link>
+            <Link className="hover:underline" to="/luizevictoria/viagem">
+              Dicas de Viagem
+            </Link>
           </li>
         </ul>
         <div className="h-full min-w-40 flex justify-center">
@@ -50,10 +57,14 @@ const Navbar = () => {
         </div>
         <ul className="max-md:hidden w-full flex justify-evenly">
           <li>
-            <Link to="/luizevictoria/presentes">Lista de Presentes</Link>
+            <Link className="hover:underline" to="/luizevictoria/presentes">
+              Lista de Presentes
+            </Link>
           </li>
           <li>
-            <Link to="/luizevictoria/rsvp">RSVP</Link>
+            <Link className="hover:underline" to="/luizevictoria/rsvp">
+              RSVP
+            </Link>
           </li>
         </ul>
         <HiMenu
@@ -68,13 +79,21 @@ const Navbar = () => {
         />
       </nav>
       {/* Menu  */}
-      <div className="w-full -top-2">
-        <div className={(!navMenu ? 'hidden' : 'md:hidden') + ' px-4 py-1'}>
-          <div className="flex flex-col gap-1 items-end">
-            <Link to="/luizevictoria/">Home</Link>
-            <Link to="/luizevictoria/viagem">Dicas de Viagem</Link>
-            <Link to="/luizevictoria/presentes">Lista de Presentes</Link>
-            <Link to="/luizevictoria/rsvp">RSVP</Link>
+      <div className=" w-full -top-2">
+        <div className={(!navMenu ? ' hidden' : ' md:hidden') + ' px-4 py-1'}>
+          <div className=" flex flex-col gap-1 items-end">
+            <Link className="hover:underline" to="/luizevictoria/">
+              Home
+            </Link>
+            <Link className="hover:underline" to="/luizevictoria/viagem">
+              Dicas de Viagem
+            </Link>
+            <Link className="hover:underline" to="/luizevictoria/presentes">
+              Lista de Presentes
+            </Link>
+            <Link className="hover:underline" to="/luizevictoria/rsvp">
+              RSVP
+            </Link>
           </div>
         </div>
       </div>
