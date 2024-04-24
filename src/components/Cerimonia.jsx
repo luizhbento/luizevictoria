@@ -11,9 +11,9 @@ const Cerimonia = () => {
     <div className="flex justify-center max-h-[90-dvh] md:max-h-[85dvh]">
       <div className="p-5 max-w-[1400px] w-[100%] flex-col md:gap-2 lg:gap-10 md:flex-row md:px-10 flex items-center justify-around">
         <h1 className=" md:hidden font-titleFont text-5xl">Cerimônia</h1>
-        <div className=" h-[100%] flex flex-col items-center justify-center">
+        <div className=" h-[450px] md:h-[500px] lg:h-[600px] xl:h-[700px] flex flex-col items-center justify-center">
           <img
-            className="max-h-[95%] md:max-h-[90%] rounded-lg object-cover"
+            className="h-[95%] md:h-[90%] rounded-lg object-cover"
             src={Imagem}
             alt="Casal com seu pet."
           />

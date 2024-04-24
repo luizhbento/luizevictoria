@@ -4,6 +4,7 @@ import Cerimonia from '../components/Cerimonia';
 import Local from '../components/Local';
 import Itinerario from '../components/Itinerario';
 import DressCode from '../components/DressCode';
+import Contamos from '../components/Contamos';
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Local />
       <Itinerario />
       <DressCode />
+      <Contamos />
     </>
   );
 };

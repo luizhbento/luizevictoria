@@ -3,7 +3,7 @@ import Imagem from '../assets/home.png';
 
 const Hero = () => {
   return (
-    <div className="h-screen w-full">
+    <div id="top" className="h-screen w-full">
       <img
         src={Imagem}
         alt="Casal caminhando em um bosque."

@@ -68,12 +68,12 @@ const Navbar = () => {
           </li>
         </ul>
         <HiMenu
-          size={35}
+          size={45}
           className={navMenu ? 'hidden' : 'md:hidden'}
           onClick={handleMenu}
         />
         <HiOutlineX
-          size={35}
+          size={45}
           className={!navMenu ? 'hidden' : 'md:hidden'}
           onClick={handleMenu}
         />
