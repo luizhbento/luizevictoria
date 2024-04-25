@@ -8,12 +8,10 @@ const Footer = () => {
   };
 
   return (
-    <div className="w-[100%] bg-[#7A7E5E] h-16 flex justify-around items-center text-white font-menuFont">
+    <div className="w-[100%] bg-[#7A7E5E] h-16 flex justify-around items-center z-2 text-white font-menuFont">
       <div className="flex flex-col items-center">
         <HiSelector size={20} className="inline" />
-        <h2 className=" text-xs sm:text-sm md:text-base">
-          Site feito pelo noivo
-        </h2>
+        <h2 className=" text-xs sm:text-sm md:text-base">Criado pelo noivo</h2>
       </div>
       <button className="flex flex-col items-center" onClick={scrollToTop}>
         <HiUpload size={20} className="inline" />
