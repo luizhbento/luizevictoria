@@ -1,16 +1,55 @@
-import React from 'react';
+import { useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 import emailjs from '@emailjs/browser';
 
 const FormsPresenca = () => {
+  const [name, setName] = useState();
+  const [surname, setSurname] = useState();
+  const [presence, setPresence] = useState('Sim');
+  const [adultsNum, setAdultsNum] = useState(0);
+  const [childrenNum, setChildrenNum] = useState(0);
+  const [comments, setComments] = useState();
+
+  const handleName = (e) => {
+    setName(e.target.value);
+  };
+  const handleSurname = (e) => {
+    setSurname(e.target.value);
+  };
+  const handleConfirmation = (e) => {
+    setPresence(e.target.value);
+  };
+  const handleAdults = (e) => {
+    setAdultsNum(e.target.value);
+  };
+  const handleChildren = (e) => {
+    setChildrenNum(e.target.value);
+  };
+  const handleComments = (e) => {
+    setComments(e.target.value);
+  };
+
   const handleSubmition = (e) => {
     e.preventDefault();
-    emailjs.sendForm(
-      import.meta.env.VITE_SERVICE_ID,
-      import.meta.env.VITE_TEMPLATE_ID,
-      e.target,
-      import.meta.env.VITE_PUBLIC_KEY,
-    );
+    if (name && surname && presence && adultsNum && comments) {
+      toast.success('Confirmação Enviada.');
+      // emailjs.sendForm(
+      //   import.meta.env.VITE_SERVICE_ID,
+      //   import.meta.env.VITE_TEMPLATE_ID,
+      //   e.target,
+      //   import.meta.env.VITE_PUBLIC_KEY,
+      // );
+      setName('');
+      setSurname('');
+      setPresence('Sim');
+      setAdultsNum(0);
+      setChildrenNum(0);
+      setComments('');
+    } else {
+      toast.error('Por favor, preencha todos os campos.');
+    }
   };
 
   return (
@@ -36,6 +75,8 @@ const FormsPresenca = () => {
               id="from-name"
               type="text"
               placeholder="Gusttavo"
+              onChange={handleName}
+              value={name}
             />
           </div>
           <div className="w-[100%] md:w-1/2 px-3">
@@ -51,6 +92,8 @@ const FormsPresenca = () => {
               name="from-surname"
               type="text"
               placeholder="Lima"
+              onChange={handleSurname}
+              value={surname}
             />
           </div>
         </div>
@@ -68,6 +111,8 @@ const FormsPresenca = () => {
                 className="block appearance-none w-[100%] bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                 id="confirmation"
                 name="confirmation"
+                onChange={handleConfirmation}
+                value={presence}
               >
                 <option>Sim</option>
                 <option>Não</option>
@@ -96,6 +141,8 @@ const FormsPresenca = () => {
               name="adults-number"
               type="number"
               placeholder="0"
+              onChange={handleAdults}
+              value={adultsNum}
             />
           </div>
 
@@ -112,6 +159,8 @@ const FormsPresenca = () => {
               name="children-number"
               type="number"
               placeholder="0"
+              onChange={handleChildren}
+              value={childrenNum}
             />
           </div>
         </div>
@@ -129,6 +178,8 @@ const FormsPresenca = () => {
               name="message"
               type="text"
               placeholder="Fulano e Ciclano"
+              onChange={handleComments}
+              value={comments}
             />
             <p className="text-gray-600 text-xs italic">
               Por favor, descreva todos os acompanhantes, inclusive crianças.
@@ -142,6 +193,18 @@ const FormsPresenca = () => {
           >
             Confirmar Presença
           </button>
+          <ToastContainer
+            position="bottom-right"
+            autoClose={3000}
+            hideProgressBar={false}
+            newestOnTop={false}
+            closeOnClick
+            rtl={false}
+            pauseOnFocusLoss
+            draggable
+            pauseOnHover
+            theme="light"
+          />
         </div>
       </form>
     </div>
