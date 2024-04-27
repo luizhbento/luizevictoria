@@ -7,7 +7,7 @@ const Background = () => {
         <div className=" absolute top-[60px] md:top-[100px] h-[80%] w-[80%] -z-10 bg-no-repeat bg-center bg-contain bg-[url('/src/assets/logo_full.png')]"></div>
         <div className=" absolute h-[100%] w-full -z-10 bg-white bg-opacity-85"></div>
       </div>
-      <div className="w-full overflow-hidden h-[80px] md:h-[120px]"></div>
+      <div className="w-full overflow-hidden h-[90px] md:h-[130px]"></div>
     </>
   );
 };

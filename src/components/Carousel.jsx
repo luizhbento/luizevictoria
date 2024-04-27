@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 
 import { HiChevronLeft, HiChevronRight } from 'react-icons/hi';
-import { carouselData } from './CarouselData';
+import { carouselData } from '../data/CarouselData';
 
 const Carousel = () => {
   const [imgIndex, setImgIndex] = useState(0);
