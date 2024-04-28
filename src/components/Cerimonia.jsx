@@ -1,5 +1,5 @@
 import React from 'react';
-import Imagem from '../assets/cerimonia_clovis.png';
+import Imagem from '../assets/home/cerimonia_clovis.png';
 
 const Cerimonia = () => {
   const Dias = Math.round(

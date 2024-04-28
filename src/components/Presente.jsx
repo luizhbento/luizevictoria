@@ -20,9 +20,7 @@ const Presente = (props) => {
           target="_blank"
           className="hover:bg-[#7A7E5E] hover:text-white border border-[#7A7E5E] font-bold text-[#7A7E5E] w-[90%] h-10 duration-300 px-5 rounded-lg flex justify-center items-center"
         >
-          <button data-name="Hamburguer Smash" data-price="15.00">
-            {props.preco}
-          </button>
+          <button>{props.preco}</button>
         </Link>
       </div>
     </div>

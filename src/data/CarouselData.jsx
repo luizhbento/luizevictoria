@@ -1,7 +1,7 @@
-import DressCode1 from '../assets/dresscode01.png';
-import DressCode2 from '../assets/dresscode02.png';
-import DressCode3 from '../assets/dresscode03.png';
-import DressCode4 from '../assets/dresscode04.png';
+import DressCode1 from '../assets/home/dresscode01.png';
+import DressCode2 from '../assets/home/dresscode02.png';
+import DressCode3 from '../assets/home/dresscode03.png';
+import DressCode4 from '../assets/home/dresscode04.png';
 
 export const carouselData = [
   {

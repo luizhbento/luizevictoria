@@ -1,7 +1,14 @@
 import React from 'react';
+import Background from '../components/Background';
+import DicasViagem from '../components/DicasViagem';
 
 const Viagem = () => {
-  return <div></div>;
+  return (
+    <>
+      <Background />
+      <DicasViagem />
+    </>
+  );
 };
 
 export default Viagem;
