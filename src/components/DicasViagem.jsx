@@ -3,9 +3,9 @@ import CarouselViagem from '../components/CarouselViagem';
 
 const Viagem = () => {
   return (
-    <div className="flex flex-col items-center justify-center">
+    <div className=" pt-6 w-full flex flex-col items-center justify-center">
       <div className="px-10 pb-4 max-w-7xl">
-        <h1 className="font-titleFont pb-3 text-center text-4xl md:text-5xl lg:text-6xl">
+        <h1 className="font-titleFont pb-6 text-center text-4xl md:text-5xl lg:text-6xl">
           Dicas de Viagem
         </h1>
         <div className="flex justify-center items-center">

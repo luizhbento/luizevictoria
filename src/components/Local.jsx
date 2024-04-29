@@ -1,5 +1,5 @@
 import React from 'react';
-import Imagem from '../assets/home/alto_das_palmeiras.png';
+import Imagem from '../assets/home/alto_das_palmeiras.webp';
 import { Link } from 'react-router-dom';
 
 const Local = () => {

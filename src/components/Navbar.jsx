@@ -1,11 +1,16 @@
 import React, { useState } from 'react';
-import Logo from '../assets/home/logo.png';
+import Logo from '../assets/home/logo.webp';
 import { HiMenu, HiOutlineX } from 'react-icons/hi';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [navBg, setNavBg] = useState(false);
   const [navMenu, setNavMenu] = useState(false);
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0 });
+    setNavMenu(false);
+  };
 
   const changeBackground = () => {
     if (window.scrollY >= 1) {
@@ -36,17 +41,22 @@ const Navbar = () => {
             <Link
               className=" transition-all duration-1000 hover:underline"
               to="/luizevictoria/"
+              onClick={scrollToTop}
             >
               Home
             </Link>
           </li>
           <li className="max-md:hidden ">
-            <Link className="hover:underline" to="/luizevictoria/viagem">
+            <Link
+              className="hover:underline"
+              to="/luizevictoria/viagem"
+              onClick={scrollToTop}
+            >
               Dicas de Viagem
             </Link>
           </li>
           <div className=" h-full">
-            <Link to="/luizevictoria/">
+            <Link to="/luizevictoria/" onClick={scrollToTop}>
               <img
                 src={Logo}
                 alt="Logo do Casamento"
@@ -55,12 +65,20 @@ const Navbar = () => {
             </Link>
           </div>
           <li className="max-md:hidden ">
-            <Link className="hover:underline" to="/luizevictoria/presentes">
+            <Link
+              onClick={scrollToTop}
+              className="hover:underline"
+              to="/luizevictoria/presentes"
+            >
               Lista de Presentes
             </Link>
           </li>
           <li className="max-md:hidden ">
-            <Link className="hover:underline" to="/luizevictoria/rsvp">
+            <Link
+              onClick={scrollToTop}
+              className="hover:underline"
+              to="/luizevictoria/rsvp"
+            >
               RSVP
             </Link>
           </li>
@@ -80,16 +98,32 @@ const Navbar = () => {
       <div className=" w-full -top-2">
         <div className={(!navMenu ? ' hidden' : ' md:hidden') + ' px-4 py-1'}>
           <div className=" flex flex-col gap-1 items-end">
-            <Link className="hover:underline" to="/luizevictoria/">
+            <Link
+              onClick={scrollToTop}
+              className="hover:underline"
+              to="/luizevictoria/"
+            >
               Home
             </Link>
-            <Link className="hover:underline" to="/luizevictoria/viagem">
+            <Link
+              onClick={scrollToTop}
+              className="hover:underline"
+              to="/luizevictoria/viagem"
+            >
               Dicas de Viagem
             </Link>
-            <Link className="hover:underline" to="/luizevictoria/presentes">
+            <Link
+              onClick={scrollToTop}
+              className="hover:underline"
+              to="/luizevictoria/presentes"
+            >
               Lista de Presentes
             </Link>
-            <Link className="hover:underline" to="/luizevictoria/rsvp">
+            <Link
+              onClick={scrollToTop}
+              className="hover:underline"
+              to="/luizevictoria/rsvp"
+            >
               RSVP
             </Link>
           </div>

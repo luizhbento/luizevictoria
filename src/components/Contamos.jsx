@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Imagem from '../assets/home/contamos.png';
+import Imagem from '../assets/home/contamos.webp';
 import { Link } from 'react-router-dom';
 
 const Contamos = () => {

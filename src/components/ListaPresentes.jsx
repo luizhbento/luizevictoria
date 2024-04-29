@@ -5,8 +5,8 @@ import { toast, ToastContainer } from 'react-toastify';
 
 const ListaPresentes = () => {
   return (
-    <div className=" py-6 w-full flex flex-col justify-evenly items-center">
-      <div className="px-10 md:px-18 pb-4 max-w-7xl">
+    <div className=" pt-6 w-full flex flex-col justify-evenly items-center">
+      <div className="px-10 md:px-18 pb-6 max-w-7xl">
         <h1 className="font-titleFont pb-3 text-center text-4xl md:text-5xl lg:text-6xl">
           Lista de Presentes
         </h1>
@@ -40,7 +40,7 @@ const ListaPresentes = () => {
         </div>
       </div>
       {/* Container de Presentes */}
-      <div className="w-[95%] grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-14">
+      <div className="w-[95%] grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-8">
         {giftData.map((data, index) => {
           return (
             <Presente

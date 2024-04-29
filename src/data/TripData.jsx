@@ -1,34 +1,34 @@
-import Viagem01 from '../assets/viagem/viagem01.png';
-import Viagem02 from '../assets/viagem/viagem02.png';
-import Viagem03 from '../assets/viagem/viagem03.png';
-import Viagem04 from '../assets/viagem/viagem04.png';
-import Viagem05 from '../assets/viagem/viagem05.png';
+import Viagem01 from '../assets/viagem/viagem01.webp';
+import Viagem02 from '../assets/viagem/viagem02.webp';
+import Viagem03 from '../assets/viagem/viagem03.webp';
+import Viagem04 from '../assets/viagem/viagem04.webp';
+import Viagem05 from '../assets/viagem/viagem05.webp';
 
-import Hotel01 from '../assets/viagem/hotel01.png';
-import Hotel02 from '../assets/viagem/hotel02.png';
+import Hotel01 from '../assets/viagem/hotel01.webp';
+import Hotel02 from '../assets/viagem/hotel02.webp';
 
-import Salao01 from '../assets/viagem/salao01.png';
-import Salao02 from '../assets/viagem/salao02.png';
-import Salao03 from '../assets/viagem/salao03.png';
-import Salao04 from '../assets/viagem/salao04.png';
-import Salao05 from '../assets/viagem/salao05.png';
-import Salao06 from '../assets/viagem/salao06.png';
-import Salao07 from '../assets/viagem/salao07.png';
+import Salao01 from '../assets/viagem/salao01.webp';
+import Salao02 from '../assets/viagem/salao02.webp';
+import Salao03 from '../assets/viagem/salao03.webp';
+import Salao04 from '../assets/viagem/salao04.webp';
+import Salao05 from '../assets/viagem/salao05.webp';
+import Salao06 from '../assets/viagem/salao06.webp';
+import Salao07 from '../assets/viagem/salao07.webp';
 
-import Restaurante01 from '../assets/viagem/restaurante01.png';
-import Restaurante02 from '../assets/viagem/restaurante02.png';
-import Restaurante03 from '../assets/viagem/restaurante03.png';
-import Restaurante04 from '../assets/viagem/restaurante04.png';
-import Restaurante05 from '../assets/viagem/restaurante05.png';
-import Restaurante06 from '../assets/viagem/restaurante06.png';
+import Restaurante01 from '../assets/viagem/restaurante01.webp';
+import Restaurante02 from '../assets/viagem/restaurante02.webp';
+import Restaurante03 from '../assets/viagem/restaurante03.webp';
+import Restaurante04 from '../assets/viagem/restaurante04.webp';
+import Restaurante05 from '../assets/viagem/restaurante05.webp';
+import Restaurante06 from '../assets/viagem/restaurante06.webp';
 
-import Bar01 from '../assets/viagem/bar01.png';
-import Bar02 from '../assets/viagem/bar02.png';
-import Bar03 from '../assets/viagem/bar03.png';
-import Bar04 from '../assets/viagem/bar04.png';
+import Bar01 from '../assets/viagem/bar01.webp';
+import Bar02 from '../assets/viagem/bar02.webp';
+import Bar03 from '../assets/viagem/bar03.webp';
+import Bar04 from '../assets/viagem/bar04.webp';
 
-import Other01 from '../assets/viagem/other01.png';
-import Other02 from '../assets/viagem/other02.png';
+import Other01 from '../assets/viagem/other01.webp';
+import Other02 from '../assets/viagem/other02.webp';
 
 export const tripData = [
   {
