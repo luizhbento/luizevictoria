@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Local = () => {
   return (
     <div className="flex justify-center max-h-[90-dvh] md:max-h-[85dvh]">
-      <div className=" w-[100%] max-w-[1400px] flex-col md:gap-2 lg:gap-10 md:flex-row md:px-10 flex justify-around">
+      <div className=" w-[100%] max-w-[1400px] flex-col md:gap-2 lg:gap-10 md:flex-row md:px-10 flex justify-around items-center">
         <div className=" hidden text-center md:flex flex-col justify-center items-center ">
           <h1 className="font-titleFont pb-7 max-md:hidden text-5xl lg:text-6xl xl:text-7xl">
             Local
@@ -35,14 +35,14 @@ const Local = () => {
         <div className=" md:hidden pt-10 flex justify-center items-center">
           <h1 className="font-titleFont text-5xl">Local</h1>
         </div>
-        <div className="sm:h-[95%] sm:max-h-[90-dvh] md:max-h-[85dvh] flex flex-col items-center justify-center">
+        <div className="w-[350px] h-[350px] sm:w-[400px] sm:h-[400px] lg:h-[450px] lg:w-[450px] xl:h-[480px] xl:w-[480px] max-sm:pb-2 flex flex-col items-center justify-center">
           <img
             className="h-[95%] md:h-[90%] min-h-0 rounded-lg object-contain"
             src={Imagem}
             alt="Foto do Alto das Palmeiras - Local do Casamento."
           />
         </div>
-        <div className="flex flex-col md:hidden justify-around items-center ">
+        <div className="flex flex-col pb-4 md:hidden justify-around items-center ">
           <h1 className="font-titleFont max-md:hidden text-5xl lg:text-6xl xl:text-7xl">
             Local
           </h1>

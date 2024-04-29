@@ -13,7 +13,7 @@ const Cerimonia = () => {
         <div className=" md:hidden pt-4 text-center flex flex-col justify-center items-center ">
           <h1 className=" font-titleFont text-5xl">Cerimônia</h1>
         </div>
-        <div className=" max-h-[80%] max-sm:pb-2 flex flex-col max-w-[80%] md:max-w-[60%] items-center justify-center">
+        <div className=" w-[350px] h-[350px] sm:w-[400px] sm:h-[400px] lg:h-[450px] lg:w-[450px] xl:h-[480px] xl:w-[480px] max-sm:pb-2 flex flex-col items-center justify-center">
           <img
             className="h-full min-h-0 rounded-lg object-contain"
             src={Imagem}
