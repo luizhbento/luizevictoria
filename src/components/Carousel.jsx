@@ -24,7 +24,7 @@ const Carousel = () => {
   }, [handleNext]);
 
   return (
-    <div className="relative h-[95%] max-h-[90-dvh] md:max-h-[85dvh] flex items-center justify-center">
+    <div className="relative w-[350px] h-[350px] sm:w-[400px] sm:h-[400px] lg:h-[450px] lg:w-[450px] xl:h-[480px] xl:w-[480px] max-sm:pb-2 flex flex-col items-center justify-center">
       {carouselData.map((data, index) => {
         return (
           <img
@@ -39,7 +39,7 @@ const Carousel = () => {
         );
       })}
 
-      <div className="absolute flex justify-between p-2 w-[100%]">
+      <div className="absolute flex justify-between p-2 w-[95%] md:w-[90%]">
         <button
           onClick={handleNext}
           className=" rounded-full transition-all hover:bg-gray-700 bg-gray-400 p-[0.1rem] bg-opacity-90"
