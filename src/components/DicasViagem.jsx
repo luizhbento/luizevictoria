@@ -31,7 +31,7 @@ const Viagem = () => {
       </div>
       {/* Fim Hoteis */}
       {/* Salões */}
-      <div className=" px-4 md:px-10 pb-4 max-w-7xl">
+      <div className=" px-4 md:px-10 pt-2 pb-4 max-w-7xl">
         <h1 className="font-titleFont text-center text-3xl md:text-4xl lg:text-5xl">
           Salões de Beleza
         </h1>
@@ -43,7 +43,7 @@ const Viagem = () => {
       </div>
       {/* Fim Salões */}
       {/* Passeios */}
-      <div className=" px-4 md:px-10 pb-4 max-w-7xl">
+      <div className=" px-4 md:px-10 pt-2 pb-4 max-w-7xl">
         <h1 className="font-titleFont text-center text-3xl md:text-4xl lg:text-5xl">
           Passeios
         </h1>
@@ -55,7 +55,7 @@ const Viagem = () => {
       </div>
       {/* Fim Passeios */}
       {/* Restaurantes */}
-      <div className=" px-4 md:px-10 pb-4 max-w-7xl">
+      <div className=" px-4 md:px-10 pt-2 pb-4 max-w-7xl">
         <h1 className="font-titleFont text-center text-3xl md:text-4xl lg:text-5xl">
           Restaurantes
         </h1>
@@ -67,7 +67,7 @@ const Viagem = () => {
       </div>
       {/* Fim Restaurantes */}
       {/* Bares */}
-      <div className=" px-4 md:px-10 pb-4 max-w-7xl">
+      <div className=" px-4 md:px-10 pt-2 pb-4 max-w-7xl">
         <h1 className="font-titleFont text-center text-3xl md:text-4xl lg:text-5xl">
           Bares
         </h1>
@@ -79,7 +79,7 @@ const Viagem = () => {
       </div>
       {/* Fim Bares */}
       {/* Outros */}
-      <div className=" px-4 md:px-10 pb-4 max-w-7xl">
+      <div className=" px-4 md:px-10 pt-2 pb-4 max-w-7xl">
         <h1 className="font-titleFont text-center text-3xl md:text-4xl lg:text-5xl">
           Outros
         </h1>
