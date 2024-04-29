@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Local = () => {
   return (
     <div className="flex justify-center max-h-[90-dvh] md:max-h-[85dvh]">
-      <div className=" w-[100%] p-5 max-w-[1400px] flex-col md:gap-2 lg:gap-10 md:flex-row md:px-10 flex justify-around">
+      <div className=" w-[100%] max-w-[1400px] p-5 flex-col md:gap-2 lg:gap-10 md:flex-row md:px-10 flex justify-around">
         <div className=" hidden text-center md:flex flex-col justify-center items-center ">
           <h1 className="font-titleFont pb-7 max-md:hidden text-5xl lg:text-6xl xl:text-7xl">
             Local

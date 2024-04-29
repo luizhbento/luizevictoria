@@ -21,7 +21,7 @@ const Itinerario = () => {
                 Os convidados serão recepcionados e direcionados para o local da
                 celebração, com direito a welcome drinks. Planejamos o casamento
                 para ocorrer durante o pôr do sol, por isso,
-                <span className="font-bold"> sem atrasos hein?!</span>
+                <span className="font-bold"> sem atrasos, hein?!</span>
               </p>
             </div>
           </li>
