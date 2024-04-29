@@ -31,7 +31,7 @@ const Navbar = () => {
       }
     >
       <nav className="w-full h-[80px] md:h-[120px] flex justify-between lg:justify-evenly items-center ">
-        <ul className="max-md:hidden w-full flex justify-evenly">
+        <ul className="max-md:hidden h-full w-full flex justify-evenly items-center">
           <li>
             <Link
               className=" transition-all duration-1000 hover:underline"
@@ -45,17 +45,15 @@ const Navbar = () => {
               Dicas de Viagem
             </Link>
           </li>
-        </ul>
-        <div className="h-full min-w-40 flex justify-center">
-          <Link to="/luizevictoria/" className="w-full">
-            <img
-              src={Logo}
-              alt="Logo do Casamento"
-              className="h-full scale-90"
-            />
-          </Link>
-        </div>
-        <ul className="max-md:hidden w-full flex justify-evenly">
+          <div className=" h-full">
+            <Link to="/luizevictoria/">
+              <img
+                src={Logo}
+                alt="Logo do Casamento"
+                className="max-w-full h-full scale-90"
+              />
+            </Link>
+          </div>
           <li>
             <Link className="hover:underline" to="/luizevictoria/presentes">
               Lista de Presentes
