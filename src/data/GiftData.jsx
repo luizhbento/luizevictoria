@@ -33,7 +33,7 @@ export const giftData = [
   {
     titulo: 'Jogo de Facas Tramontina',
     descricao:
-      'Jogo de Facas pra fazer aquele churrasquinho esperto e pra ajudar nas fabricação semanal de marmitas.',
+      'Jogo de Facas pra fazer aquele churrasquinho esperto e pra ajudar na fabricação semanal de marmitas.',
     imagem: Presente04,
     preco: 'R$ 249,90',
     linkPix: '',

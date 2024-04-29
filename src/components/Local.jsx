@@ -35,7 +35,7 @@ const Local = () => {
         <div className=" md:hidden flex justify-center items-center">
           <h1 className="font-titleFont text-5xl">Local</h1>
         </div>
-        <div className="h-[95%] max-h-[90-dvh] md:max-h-[85dvh] flex flex-col items-center justify-center">
+        <div className="sm:h-[95%] sm:max-h-[90-dvh] md:max-h-[85dvh] flex flex-col items-center justify-center">
           <img
             className="h-[95%] md:h-[90%] rounded-lg object-contain"
             src={Imagem}

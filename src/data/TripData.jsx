@@ -134,7 +134,7 @@ export const beautyData = [
     local: 'https://maps.app.goo.gl/EunEZGmX5VXtJXM8A',
   },
   {
-    titulo: `Mayara Belufe Cabeleleira`,
+    titulo: `Mayara Belufe Cabelereira`,
     descricao: `Localizado em Campinas. Indicação da noiva. Confira o trabalho no @mabelufehair`,
     cupom: '',
     imagem: Salao06,
