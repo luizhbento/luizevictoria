@@ -37,7 +37,7 @@ const Local = () => {
         </div>
         <div className=" h-[450px] md:h-[500px] lg:h-[600px] xl:h-[700px] flex flex-col items-center justify-center">
           <img
-            className="h-[95%] md:h-[90%] rounded-lg object-cover"
+            className="h-[95%] md:h-[90%] rounded-lg object-contain"
             src={Imagem}
             alt="Foto do Alto das Palmeiras - Local do Casamento."
           />

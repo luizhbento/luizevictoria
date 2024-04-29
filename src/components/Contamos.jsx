@@ -17,7 +17,7 @@ const Contamos = () => {
       <div className="relative">
         <div className="absolute left-[50%] max-w-[90%] -translate-x-[50%] aspect-square -top-[410px] sm:-top-[450px] md:-top-[500px] lg:-top-[575px] xl:-top-[660px] h-[450px] md:h-[500px] lg:h-[600px] xl:h-[700px] flex flex-col items-center justify-center">
           <img
-            className="max-h-[95%] md:max-h-[90%] rounded-full object-cover"
+            className="max-h-[95%] md:max-h-[90%] rounded-full object-contain"
             src={Imagem}
             alt="Casal com seu pet."
           />
