@@ -12,7 +12,7 @@ const Viagem = () => {
           <div>
             <p className="font-titleFont pb-1 text-center text-md md:text-lg lg:text-xl ">
               Reunimos aqui algumas dicas do que fazer, onde ficar, onde se
-              arrumar. Se ficar alguma dúvida, ou precisarem de alguma outra
+              arrumar. Se ficar alguma dúvida, ou precisar de alguma outra
               informação que não está aqui, pode chamar a gente!
             </p>
           </div>
