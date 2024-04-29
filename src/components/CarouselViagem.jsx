@@ -54,7 +54,7 @@ const Carousel = (props) => {
   };
 
   useEffect(() => {
-    const interval = setInterval(handleNext, 4000000);
+    const interval = setInterval(handleNext, 5000);
     return () => clearInterval(interval);
   }, [handleNext]);
 
@@ -68,20 +68,25 @@ const Carousel = (props) => {
               (index === myIndex ? '' : 'hidden') + ' flex justify-center'
             }
           >
-            <div className="p-3 max-w-[1400px] w-[100%] flex-col md:gap-2 lg:gap-10 md:flex-row md:px-10 flex items-center justify-between">
-              <img
-                className="max-md:max-h-[55%] md:max-w-[50%] md:max-h-[90%] rounded-lg object-contain"
-                src={data.imagem}
-                alt={data.titulo}
-              />
+            <div className="p-3 md:p-4 max-w-[1400px] w-[100%] flex-col md:gap-2 lg:gap-10 md:flex-row md:px-10 flex items-center justify-between">
+              <div
+                className="flex justify-center items-center w-56 h-56
+                sm:w-72 sm:h-72 md:w-96 md:h-96 lg:h-[400px] lg:w-[400px] xl:h-[450px] xl:w-[450px] "
+              >
+                <img
+                  className="rounded-lg object-contain"
+                  src={data.imagem}
+                  alt={data.titulo}
+                />
+              </div>
               <div className="flex h-[300px] lg:h-[400px] md:w-[50%] flex-col items-center justify-between ">
-                <h1 className=" py-2 text-2xl lg:text-3xl xl:text-4xl">
+                <h1 className=" py-2 text-xl lg:text-2xl xl:text-3xl">
                   {data.titulo}
                 </h1>
                 <p className="text-md lg:text-lg xl:text-2xl font-bold">
                   {data.preco}
                 </p>
-                <p className="  text-md p-2 max-md:pt-4 lg:text-lg xl:text-2xl ">
+                <p className="  text-md p-2 max-md:pt-4 text-md md:text-lg lg:text-xl xl:text-2xl ">
                   {data.descricao}{' '}
                   <span className="text-md lg:text-lg xl:text-2xl font-bold">
                     {data.cupom}
@@ -111,15 +116,17 @@ const Carousel = (props) => {
           </div>
         );
       })}
-      <div className="absolute left-0 flex justify-between p-4 sm:p-8 md:p-16 lg:p-24 2xl:p-36 w-[100%]">
+      <div className="absolute left-0 flex justify-center pl-4 sm:pl-8 md:pl-16 lg:pl-24 2xl:pl-36">
         <button
-          onClick={handleNext}
+          onClick={handlePrevious}
           className=" rounded-full transition-all hover:bg-gray-700 bg-gray-400 p-[0.2rem] bg-opacity-90"
         >
           <HiChevronLeft size={20} color="white" />
         </button>
+      </div>
+      <div className="absolute right-0 flex justify-center pr-4 sm:pr-8 md:pr-16 lg:pr-24 2xl:pr-36">
         <button
-          onClick={handlePrevious}
+          onClick={handleNext}
           className=" rounded-full transition-all hover:bg-gray-700 bg-gray-400 p-[0.2rem] bg-opacity-90"
         >
           <HiChevronRight size={20} color="white" />

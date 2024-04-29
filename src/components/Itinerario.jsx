@@ -37,7 +37,7 @@ const Itinerario = () => {
               </h4>
               <p className="mb-3 text-neutral-300 ">
                 Daremos início à cerimônia do casamento. Teremos uma celebração
-                católica, assistida pelo Padre Marcel, mas em que todas as
+                católica, presidida pelo Padre Marcel, mas em que todas as
                 religiões e crenças serão muito bem vindas!
               </p>
             </div>

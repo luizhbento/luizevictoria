@@ -25,7 +25,7 @@ const Viagem = () => {
         </h1>
         <div className="flex justify-center gap-6 items-center">
           <div className="max-w-[90%]">
-            <CarouselViagem type="hotel" />;
+            <CarouselViagem type="hotel" />
           </div>
         </div>
       </div>
@@ -37,7 +37,7 @@ const Viagem = () => {
         </h1>
         <div className="flex justify-center gap-6 items-center">
           <div className="max-w-[90%]">
-            <CarouselViagem type="beauty" />;
+            <CarouselViagem type="beauty" />
           </div>
         </div>
       </div>
@@ -49,7 +49,7 @@ const Viagem = () => {
         </h1>
         <div className="flex justify-center gap-6 items-center">
           <div className="max-w-[90%]">
-            <CarouselViagem type="trip" />;
+            <CarouselViagem type="trip" />
           </div>
         </div>
       </div>
@@ -61,7 +61,7 @@ const Viagem = () => {
         </h1>
         <div className="flex justify-center gap-6 items-center">
           <div className="max-w-[90%]">
-            <CarouselViagem type="restaurants" />;
+            <CarouselViagem type="restaurants" />
           </div>
         </div>
       </div>
@@ -73,7 +73,7 @@ const Viagem = () => {
         </h1>
         <div className="flex justify-center gap-6 items-center">
           <div className="max-w-[90%]">
-            <CarouselViagem type="bar" />;
+            <CarouselViagem type="bar" />
           </div>
         </div>
       </div>
@@ -85,7 +85,7 @@ const Viagem = () => {
         </h1>
         <div className="flex justify-center gap-6 items-center">
           <div className="max-w-[90%]">
-            <CarouselViagem type="others" />;
+            <CarouselViagem type="others" />
           </div>
         </div>
       </div>

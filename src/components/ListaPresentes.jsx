@@ -17,7 +17,7 @@ const ListaPresentes = () => {
             </p>
             <p className="font-titleFont pb-2 text-center text-md md:text-lg lg:text-xl ">
               Porém, se quiser também contribuir com nossa lista de casamento,
-              seguem algumas sugestões e, ao fim, uma opção com valor
+              seguem algumas sugestões e, ao final, uma opção com valor
               personalizado.
             </p>
             <p className="font-titleFont pb-2 text-center text-md md:text-lg lg:text-xl">
