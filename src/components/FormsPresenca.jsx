@@ -35,12 +35,12 @@ const FormsPresenca = () => {
     e.preventDefault();
     if (name && surname && presence && adultsNum && comments) {
       toast.success('Confirmação Enviada.');
-      // emailjs.sendForm(
-      //   import.meta.env.VITE_SERVICE_ID,
-      //   import.meta.env.VITE_TEMPLATE_ID,
-      //   e.target,
-      //   import.meta.env.VITE_PUBLIC_KEY,
-      // );
+      emailjs.sendForm(
+        import.meta.env.VITE_SERVICE_ID,
+        import.meta.env.VITE_TEMPLATE_ID,
+        e.target,
+        import.meta.env.VITE_PUBLIC_KEY,
+      );
       setName('');
       setSurname('');
       setPresence('Sim');
