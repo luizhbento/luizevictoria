@@ -24,7 +24,7 @@ const Carousel = () => {
   }, [handleNext]);
 
   return (
-    <div className="relative h-[450px] md:h-[500px] lg:h-[600px] xl:h-[700px] flex items-center justify-center">
+    <div className="relative h-[95%] max-h-[90-dvh] md:max-h-[85dvh] flex items-center justify-center">
       {carouselData.map((data, index) => {
         return (
           <img
