@@ -10,10 +10,10 @@ const Cerimonia = () => {
   return (
     <div className="flex justify-center h-[90-dvh] md:h-[70dvh]">
       <div className="w-[100%] max-w-[1400px] flex-col md:gap-2 lg:gap-10 md:flex-row md:px-10 flex items-center justify-around">
-        <div className=" md:hidden text-center flex flex-col justify-center items-center ">
+        <div className=" md:hidden pt-4 text-center flex flex-col justify-center items-center ">
           <h1 className=" font-titleFont text-5xl">Cerimônia</h1>
         </div>
-        <div className=" h-[80%] flex flex-col max-w-[80%] md:max-w-[60%] items-center justify-center">
+        <div className=" max-h-[80%] max-sm:pb-2 flex flex-col max-w-[80%] md:max-w-[60%] items-center justify-center">
           <img
             className="h-full min-h-0 rounded-lg object-contain"
             src={Imagem}

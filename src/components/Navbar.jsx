@@ -31,8 +31,8 @@ const Navbar = () => {
       }
     >
       <nav className="w-full h-[80px] md:h-[120px] flex justify-between lg:justify-evenly items-center ">
-        <ul className="max-md:hidden h-full w-full flex justify-evenly items-center">
-          <li>
+        <ul className=" h-full w-full flex justify-between md:justify-evenly items-center">
+          <li className="max-md:hidden ">
             <Link
               className=" transition-all duration-1000 hover:underline"
               to="/luizevictoria/"
@@ -40,7 +40,7 @@ const Navbar = () => {
               Home
             </Link>
           </li>
-          <li>
+          <li className="max-md:hidden ">
             <Link className="hover:underline" to="/luizevictoria/viagem">
               Dicas de Viagem
             </Link>
@@ -54,27 +54,27 @@ const Navbar = () => {
               />
             </Link>
           </div>
-          <li>
+          <li className="max-md:hidden ">
             <Link className="hover:underline" to="/luizevictoria/presentes">
               Lista de Presentes
             </Link>
           </li>
-          <li>
+          <li className="max-md:hidden ">
             <Link className="hover:underline" to="/luizevictoria/rsvp">
               RSVP
             </Link>
           </li>
+          <HiMenu
+            size={45}
+            className={navMenu ? 'hidden' : 'md:hidden'}
+            onClick={handleMenu}
+          />
+          <HiOutlineX
+            size={45}
+            className={!navMenu ? 'hidden' : 'md:hidden'}
+            onClick={handleMenu}
+          />
         </ul>
-        <HiMenu
-          size={45}
-          className={navMenu ? 'hidden' : 'md:hidden'}
-          onClick={handleMenu}
-        />
-        <HiOutlineX
-          size={45}
-          className={!navMenu ? 'hidden' : 'md:hidden'}
-          onClick={handleMenu}
-        />
       </nav>
       {/* Menu  */}
       <div className=" w-full -top-2">
