@@ -6,7 +6,8 @@ const Local = () => {
   return (
     <div className="flex justify-center max-h-[90-dvh] md:max-h-[85dvh]">
       <div className=" w-[100%] max-w-[1400px] p-5 flex-col md:gap-2 lg:gap-10 md:flex-row md:px-10 flex justify-around">
-        <div className=" hidden text-center md:flex flex-col justify-center items-center ">
+        {/* Div dos Detalhes */}
+        <div className=" hidden text-center md:flex md:flex-col md:justify-center md:items-center ">
           <h1 className="font-titleFont pb-7 max-md:hidden text-5xl lg:text-6xl xl:text-7xl">
             Local
           </h1>
@@ -32,9 +33,11 @@ const Local = () => {
             </Link>
           </div>
         </div>
+        {/* Div do H1 */}
         <div className=" md:hidden flex justify-center items-center">
           <h1 className="font-titleFont text-5xl">Local</h1>
         </div>
+        {/* Div da Imagem */}
         <div className="sm:h-[95%] sm:max-h-[90-dvh] md:max-h-[85dvh] flex flex-col items-center justify-center">
           <img
             className="h-[95%] md:h-[90%] rounded-lg object-contain"
@@ -42,6 +45,7 @@ const Local = () => {
             alt="Foto do Alto das Palmeiras - Local do Casamento."
           />
         </div>
+        {/* Div dos Detalhes Small */}
         <div className="flex flex-col md:hidden justify-around items-center ">
           <h1 className="font-titleFont max-md:hidden text-5xl lg:text-6xl xl:text-7xl">
             Local
