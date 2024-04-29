@@ -69,12 +69,9 @@ const Carousel = (props) => {
             }
           >
             <div className="p-3 md:p-4 max-w-[1400px] w-[100%] flex-col md:gap-2 lg:gap-10 md:flex-row md:px-10 flex items-center justify-between">
-              <div
-                className="flex justify-center items-center w-56 h-56
-                sm:w-72 sm:h-72 md:w-96 md:h-96 lg:h-[400px] lg:w-[400px] xl:h-[450px] xl:w-[450px] "
-              >
+              <div className="flex justify-center items-center w-56 h-56 sm:w-72 sm:h-72 md:w-96 md:h-96 lg:h-[400px] lg:w-[400px] xl:h-[450px] xl:w-[450px] ">
                 <img
-                  className="rounded-lg object-cover"
+                  className="rounded-lg w-full h-full object-cover"
                   src={data.imagem}
                   alt={data.titulo}
                 />
