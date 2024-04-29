@@ -74,7 +74,7 @@ const Carousel = (props) => {
                 sm:w-72 sm:h-72 md:w-96 md:h-96 lg:h-[400px] lg:w-[400px] xl:h-[450px] xl:w-[450px] "
               >
                 <img
-                  className="rounded-lg object-contain"
+                  className="rounded-lg object-cover"
                   src={data.imagem}
                   alt={data.titulo}
                 />
