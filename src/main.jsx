@@ -9,6 +9,7 @@ import Presenca from './pages/Presenca.jsx';
 import Presentes from './pages/Presentes.jsx';
 import Viagem from './pages/Viagem.jsx';
 import MainLayout from './layouts/MainLayout.jsx';
+import ObrigadoPage from './pages/ObrigadoPage.jsx';
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
       {
         path: '/luizevictoria/viagem',
         element: <Viagem />,
+      },
+      {
+        path: '/luizevictoria/obrigado',
+        element: <ObrigadoPage />,
       },
     ],
   },

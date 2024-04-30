@@ -50,7 +50,7 @@ const ListaPresentes = () => {
               preco={data.preco}
               descricao={data.descricao}
               linkCartao={data.linkCartao}
-              linkPix={data.linkCPix}
+              linkPix={data.linkPix}
             />
           );
         })}
