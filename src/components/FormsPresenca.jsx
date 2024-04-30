@@ -33,7 +33,7 @@ const FormsPresenca = () => {
 
   const handleSubmition = (e) => {
     e.preventDefault();
-    if (name && surname && presence && adultsNum && comments) {
+    if (name && surname && presence && adultsNum) {
       toast.success('Confirmação Enviada.');
       emailjs.sendForm(
         import.meta.env.VITE_SERVICE_ID,

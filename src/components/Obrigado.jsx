@@ -10,7 +10,7 @@ const Obrigado = () => {
             Muito Obrigado!!
           </h1>
         </div>
-        <div className=" w-[350px] h-[350px] sm:w-[400px] sm:h-[400px] lg:h-[450px] lg:w-[450px] xl:h-[480px] xl:w-[480px] max-sm:pb-2 flex flex-col items-center justify-center">
+        <div className=" w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] lg:h-[450px] lg:w-[450px] xl:h-[480px] xl:w-[480px] max-sm:pb-2 flex flex-col items-center justify-center">
           <img
             className="h-[95%] md:h-[90%] min-h-0 rounded-lg object-contain"
             src={Imagem}
