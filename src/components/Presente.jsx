@@ -23,8 +23,10 @@ const Presente = (props) => {
         </p>
         <div className="flex text-sm w-[100%] gap-2">
           <Link
-            to={props.linkPix}
-            target="_blank"
+            onClick={() =>
+              window.open(props.linkPix, '_blank', 'noopener,noreferrer')
+            }
+            to="/luizevictoria/obrigado"
             className="hover:bg-[#7A7E5E] hover:text-white border bg-white border-[#7A7E5E] font-bold text-[#7A7E5E] w-[90%] h-8 duration-300 rounded-lg flex justify-center items-center"
           >
             <button>
@@ -34,7 +36,6 @@ const Presente = (props) => {
           </Link>
           <Link
             to={props.linkCartao}
-            target="_blank"
             className="hover:bg-[#7A7E5E] hover:text-white border bg-white border-[#7A7E5E] font-bold text-[#7A7E5E] w-[90%] h-8 duration-300 rounded-lg flex justify-center items-center"
           >
             <button>

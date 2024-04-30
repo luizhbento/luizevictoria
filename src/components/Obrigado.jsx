@@ -22,8 +22,8 @@ const Obrigado = () => {
             Muito Obrigado!!
           </h1>
           <div className="flex flex-col justify-around items-center ">
-            <p className="font-titleFont text-2xl pb-2 lg:text-3xl xl:text-4xl ">
-              nos vemos lá!
+            <p className="font-titleFont text-2xl text-center pb-2 lg:text-2xl xl:text-3xl ">
+              Se prepara que a festa vai ser boa... Nos vemos lá!
             </p>
           </div>
         </div>
