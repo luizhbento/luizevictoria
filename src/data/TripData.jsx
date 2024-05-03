@@ -32,7 +32,7 @@ import Other02 from '../assets/viagem/other02.webp';
 
 export const tripData = [
   {
-    titulo: `Hoppy Hari`,
+    titulo: `Hopi Hari`,
     descricao: `O "Hopi Hari" (Parque de diversões) é um dos mais famosos parques do País e está localizado muito perto do local do casamento. Pra quem busca uma aventura, vale muito a visita.`,
     imagem: Viagem01,
     saibamais: 'https://www.hopihari.com.br/',
